@@ -89,6 +89,7 @@ while (runProgram)
         int roll2 = rolls[1];
     Console.WriteLine($"First roll is a {roll1}");
     Console.WriteLine($"Second roll is a {roll2}");
+    Console.WriteLine($"Your total is: {roll1 + roll2}");
     Console.WriteLine(Combo(roll1, roll2, Judge));
     Console.WriteLine(Outcome(roll1, roll2, Judge));
 
